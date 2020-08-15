@@ -1,0 +1,17 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  padding: 3px 10px 3px 20px;
+  border: 1px solid rgba(123, 27, 96, 0.95);
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.todo li {
+  list-style: none;
+}
+
+.todo button {
+  color: #cba321;
+}
