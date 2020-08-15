@@ -7,7 +7,7 @@ export const ToDo = ({ todo, deleteItem }) => {
   return (
     <div className="todo">
       <li className="todo-item">{text}</li>
-      <button className="fas fa-trash" onClick={deleteItem} />
+      <button className="fas fa-trash" onClick={() => deleteItem(id)} />
     </div>
   );
 };

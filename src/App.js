@@ -20,7 +20,7 @@ const App = () => {
   }
 
   const deleteItem = (id) => {
-    console.log('Delete Pressed!!')
+    setToDoList(toDoList.filter(todo => todo.id !== id))
   }
 
   return (
