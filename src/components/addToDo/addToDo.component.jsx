@@ -8,7 +8,6 @@ const AddToDo = ({ addTODO }) => {
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
-
     setTodo({ ...todo, [name]: value });
   };
 
@@ -18,8 +17,9 @@ const AddToDo = ({ addTODO }) => {
     addTODO(todo);
     setTodo(initialFormState);
   };
+
   return (
-    <div>
+    <div className="input-form">
       <form onSubmit={submitHandler}>
         <label>Add Todo</label>
         <input

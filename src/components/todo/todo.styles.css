@@ -1,11 +1,18 @@
 .todo {
   display: flex;
+  height: 30px;
   flex-direction: row;
-  max-width: 500px;
-  padding: 3px 10px 3px 20px;
-  border: 1px solid rgba(123, 27, 96, 0.95);
-  margin: 5px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;
   justify-content: space-between;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #9f86c0;
+  border-bottom: 1px solid #5e548e;
+  cursor: pointer;
+  margin: 1px 5px;
+  border-radius: 5px;
 }
 
 .todo li {
@@ -13,5 +20,12 @@
 }
 
 .todo button {
-  color: #cba321;
+  color: #231942;
+  background: #e0b1cb;
+  cursor: pointer;
+}
+
+.todo-item {
+  margin-left: 10px;
+  margin-top: 5px;
 }

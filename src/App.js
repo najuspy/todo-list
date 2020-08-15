@@ -25,9 +25,10 @@ const App = () => {
 
   return (
     <div className='container'>
-      <h1 className='header'>TODO LIST </h1>
-      <ListViewer toDoList={toDoList} deleteItem={deleteItem} />
+      <h1>TODO LIST </h1>
       <AddToDo addTODO={addTODO} />
+      <ListViewer toDoList={toDoList} deleteItem={deleteItem} />
+
     </div>
   )
 
